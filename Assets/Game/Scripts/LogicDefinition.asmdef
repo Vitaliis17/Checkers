@@ -1,0 +1,19 @@
+{
+    "name": "LogicDefinition",
+    "rootNamespace": "",
+    "references": [
+        "InputActionDefinition",
+        "Unity.InputSystem",
+        "R3.Unity",
+        "Zenject"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

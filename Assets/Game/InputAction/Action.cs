@@ -94,9 +94,9 @@ public partial class @Action: IInputActionCollection2, IDisposable
             ""actions"": [
                 {
                     ""name"": ""Mouse"",
-                    ""type"": ""Value"",
+                    ""type"": ""Button"",
                     ""id"": ""2f4dd36e-40db-4be5-bba2-c3931ab48b28"",
-                    ""expectedControlType"": ""Vector2"",
+                    ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
@@ -106,7 +106,7 @@ public partial class @Action: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""68fa00fd-0054-4595-9dcf-f291820d9437"",
-                    ""path"": ""<Mouse>/position"",
+                    ""path"": ""<Mouse>/leftButton"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",

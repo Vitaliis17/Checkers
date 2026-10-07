@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1552763792654470889}
   - component: {fileID: 4431905056106054728}
   - component: {fileID: 2502646081458227361}
+  - component: {fileID: 5933940951430934859}
   m_Layer: 0
   m_Name: Checker
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8, y: 0.12, z: 0.8}
+  m_LocalScale: {x: 0.080000006, y: 1.1999999, z: 0.080000006}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -111,3 +112,15 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5933940951430934859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822420430109249585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4316778882f34674a945b562d77f63f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: LogicDefinition::Checker
