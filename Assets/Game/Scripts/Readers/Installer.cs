@@ -10,7 +10,7 @@ public class Installer : MonoInstaller
     public override void InstallBindings()
     {
         Container.BindInterfacesTo<MouseReader>().AsSingle();
-        Container.BindInterfacesTo<Presenter>().AsSingle();
+        Container.BindInterfacesTo<CheckerTranslater>().AsSingle();
 
         Container.Bind<Tilemap>().FromInstance(_map).AsSingle();
         Container.Bind<Camera>().FromInstance(_mainCamera).AsSingle();
